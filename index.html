@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman Numeral Converter</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="title">ROMAN NUMERAL CONVERTER</h1>
+        </header>
+
+        <div id="converter">
+            <p>Enter a Number:</p>
+            <input type="number" required id="number" />
+            <button type="submit" id="convert-btn">Convert to Roman</button>
+        </div>
+
+        <div class='roman-numeral' id="output"></div>
+
+        <div id="info">
+            <p id="credit">From: Wikipedia</p>
+            <p>
+                Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of
+                writing numbers
+                throughout Europe well into the Late Middle Ages. Numbers are written with combinations of letters from
+                the Latin
+                alphabet, each with a fixed integer value.
+            </p>
+
+            <p>The modern style uses only these seven:</p>
+
+            <div id="table-container">
+                <table>
+                    <tr>
+                        <th class="roman-numeral">I</th>
+                        <th class="roman-numeral">V</th>
+                        <th class="roman-numeral">X</th>
+                        <th class="roman-numeral">L</th>
+                        <th class="roman-numeral">C</th>
+                        <th class="roman-numeral">D</th>
+                        <th class="roman-numeral">M</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>50</td>
+                        <td>100</td>
+                        <td>500</td>
+                        <td>1000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
